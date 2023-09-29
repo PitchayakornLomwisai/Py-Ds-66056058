@@ -1,7 +1,7 @@
 
 from math import pi
-
-class Cylindervol:
+from areaCal.shape import Shape
+class Cylindervol(Shape):
     """
     This is the Cylindervol class. It represents a cylinder and calculates its volume.
 
