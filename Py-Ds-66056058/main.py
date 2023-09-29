@@ -1,16 +1,31 @@
-# This is a sample Python script.
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+# area_calc.py
+#%%
+from areaCal.circle import Circle
+from areaCal.square import Square
+from areaCal.rectangle import Rectangle
+from areaCal.triangle import Triangle
+from areaCal.cylinder import Cylindervol
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    rectangle_input = Rectangle(5,10)
+    print(rectangle_input)
+    circle_input = Circle(2)
+    print(circle_input)
+
+    square_input = Square(5)
+    print(square_input)
+
+    triangle_input = Triangle(2,2)
+    print(triangle_input)
+
+    cylinder_input = Cylindervol(5, 10)
+    print(cylinder_input)
+
+
+
+
+
+
