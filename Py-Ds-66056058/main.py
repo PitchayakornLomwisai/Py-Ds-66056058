@@ -1,6 +1,5 @@
 
-# area_calc.py
-#%%
+
 from areaCal.circle import Circle
 from areaCal.square import Square
 from areaCal.rectangle import Rectangle
@@ -12,6 +11,7 @@ if __name__ == '__main__':
 
     rectangle_input = Rectangle(5,10)
     print(rectangle_input)
+    
     circle_input = Circle(2)
     print(circle_input)
 
